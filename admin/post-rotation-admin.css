@@ -1,0 +1,25 @@
+.wrap h2, .wrap h4, .check_all {
+    color: #000033;
+    font-weight: bold;
+}
+.wrap h3 {
+	color: #008000;
+}
+.detail {
+    color: #000033;
+	font-size: 10px;
+	font-weight: bold;
+}
+.form-table td {
+    text-align: left;
+}
+#categories_container .categories_block {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #000033;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;
+}
