@@ -9,7 +9,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-'Post Rotation' takes the oldest post that matches with your criteria and automatically converts it in the most recent one, as just published.
+Allows you to automatically rotate your posts specifying the frequency... and the oldest becomes the latest one!
 
 
 == Description ==
@@ -20,7 +20,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 = Features =
 
 * Easy configuration.
-* You can choose if you want to alter the 'last_modified' date of the post.
+* You can specify the frequency (interval in hours without new posts).
+* You can also choose if you want to alter the 'last_modified' date of the post.
 * You can select which categories will be affected and which ones will be ignored by the plugin.
 * Clean uninstall option: If this option is enabled, the plugin will leave absolutely no traces when uninstalling.
 * Visit [www.digitalemphasis.com](http://www.digitalemphasis.com) or follow [@digitalemphasis](https://twitter.com/digitalemphasis) on Twitter for more info.
