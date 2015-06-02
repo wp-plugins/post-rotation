@@ -3,7 +3,7 @@
 Plugin Name: Post Rotation
 Plugin URI: http://www.digitalemphasis.com/wordpress-plugins/post-rotation/
 Description: 'Post Rotation' takes the oldest post that matches with your criteria and automatically converts it in the most recent one, as just published.
-Version: 1.0
+Version: 1.1
 Author: digitalemphasis
 Author URI: http://www.digitalemphasis.com/
 License: GPLv2 or later

@@ -4,6 +4,7 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 global $wpdb;
 global $matches;
 global $limit_start;
+global $pr_included_categories;
 
 function convert($seconds) {
 	$s = $seconds%60;
@@ -113,7 +114,7 @@ foreach ($categories as $key => $value) {
 
 <input type="checkbox" class="chkbx" id="pr_included_categories" name="pr_included_categories[]" value="<?php echo $value->term_id; ?>"
 <?php
-if (is_array(get_option('pr_included_categories')) && in_array($value->term_id, get_option('pr_included_categories'))) {
+if (is_array($pr_included_categories) && in_array($value->term_id, $pr_included_categories)) {
     echo 'checked="checked"';
 }
 ?>

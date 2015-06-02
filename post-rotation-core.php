@@ -1,22 +1,21 @@
 <?php
 defined('ABSPATH') or die("Cannot access pages directly.");
 
-$limit_start = 0;
 $matches = 0;
+$limit_start = 0;
+$count_posts = wp_count_posts()->publish;
+$pr_included_categories = get_option('pr_included_categories');
 
-checking :
+while (($matches == 0) && ($limit_start < $count_posts)) {
 	$post_categories = wp_get_post_categories(selectedpost($limit_start));
-	$pr_included_categories = get_option('pr_included_categories');
 	if (is_array($pr_included_categories)) {
 		$comparison = array_intersect($post_categories, $pr_included_categories);
 		$matches = count($comparison);
 	}
 	if ($matches == 0) {
 		$limit_start++;
-		if ($limit_start < wp_count_posts()->publish) {
-			goto checking;
-		}
 	}
+}
 
 function selectedpost($limit_start) {
 	global $wpdb;

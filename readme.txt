@@ -5,7 +5,7 @@ Donate link: http://www.digitalemphasis.com/donate/
 Tags: admin, post, posts, post rotation, post rotator, rotation, rotator, automatic rotation
 Requires at least: 3.5
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,9 +39,6 @@ Allows you to automatically rotate your posts specifying the frequency... and th
 = Will the rotation starts once the plugin is activated? =
 No. Firstly you need to visit the administration panel, activate the rotation, configure the settings and save the changes.
 
-= I use an old PHP version. Can I use this plugin? =
-Your host needs to use PHP 5.3 or higher to run this plugin.
-
 
 == Screenshots ==
 
@@ -49,6 +46,10 @@ Your host needs to use PHP 5.3 or higher to run this plugin.
 
 
 == Changelog ==
+
+= 1.1 =
+* Removed 'goto' from code.
+* Minor code optimization.
 
 = 1.0 =
 * Initial release.
