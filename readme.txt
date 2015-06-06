@@ -2,7 +2,7 @@
 
 Contributors: digitalemphasis
 Donate link: http://www.digitalemphasis.com/donate/
-Tags: admin, post, posts, post rotation, post rotator, rotation, rotator, automatic rotation
+Tags: admin, administration, automatic, post, posts, post rotation, post rotator, rotation, rotator
 Requires at least: 3.5
 Tested up to: 4.2
 Stable tag: 1.1
